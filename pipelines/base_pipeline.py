@@ -376,7 +376,7 @@ class VanillaPipeline(Pipeline):
         ) as progress:
             task = progress.add_task("[green]Evaluating all eval images...", total=num_images)
             for camera, batch in self.datamanager.fixed_indices_eval_dataloader:
-                if True:
+                if False:
                     for i in range(100):
                         # Orthophoto
                         # print("STARTING ORTHOPHOTO GENERATION")
